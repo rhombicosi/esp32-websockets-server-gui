@@ -70,7 +70,7 @@ char webpage[] PROGMEM = R"=====(
       var line1 = new TimeSeries();
       var line2 = new TimeSeries();
 
-      // Add a temperature/humiduty value to each line every second
+      // Add a temperature and humiduty values to each line every second
       setInterval(function() {
         line1.append(Date.now(), tmp);
         line2.append(Date.now(), hmd);
