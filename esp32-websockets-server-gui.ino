@@ -28,10 +28,11 @@ char webpage[] PROGMEM = R"=====(
     body,h4 {
         color: white;
         font-family: tahoma;
+        background-color: #000000;
       }
   </style>
 </head>
-<body bgcolor="#0a0a0f" onload="javascript:init()">
+<body onload="javascript:init()">
   <h4>temperature (C)</h4>
     <canvas id="tmp" width="1200" height="131"></canvas>
   
