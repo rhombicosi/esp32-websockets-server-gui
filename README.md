@@ -1,1 +1,1 @@
-web gui for THU21D-F sensor data
+web gui for HTU21D-F sensor data
